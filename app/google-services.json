@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777545407082",
+    "project_id": "btcl-employeeengagementapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777545407082:android:548a67476c6508c6",
+        "android_client_info": {
+          "package_name": "com.bynry.btcl_employeeengagementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777545407082-cqjoaqc0n7blq7k9ebvpsdke7j2vakpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bynry.btcl_employeeengagementapp",
+            "certificate_hash": "3335bb95e81f0a69d2bcd440168a0169c3ac54b4"
+          }
+        },
+        {
+          "client_id": "777545407082-np155ds67tif8j7i4qb3ku0v6hl3nak0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaMWkDxV4eKGDhblLjHs3yzrqRZ6SCD6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
