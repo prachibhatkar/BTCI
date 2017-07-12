@@ -1,33 +1,35 @@
 {
   "project_info": {
-    "project_number": "739127008890",
-    "project_id": "firebase-btci-employeeengageme"
+    "project_number": "263850084193",
+    "firebase_url": "https://btci-143e1.firebaseio.com",
+    "project_id": "btci-143e1",
+    "storage_bucket": "btci-143e1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:739127008890:android:5ad0eb7769311f4f",
+        "mobilesdk_app_id": "1:263850084193:android:448a6e54727be4e5",
         "android_client_info": {
-          "package_name": "com.bynry.btci_employeeengagementapp"
+          "package_name": "com.bynry.btci"
         }
       },
       "oauth_client": [
         {
-          "client_id": "739127008890-00ffad1ih50ckgusuoca93qgm7k85btc.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "739127008890-2185cnom5s7b2mndaelhkjt69h47mpqj.apps.googleusercontent.com",
+          "client_id": "263850084193-a80738ppmh1p78oi656vl46kqnh0v31r.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.bynry.btci_employeeengagementapp",
+            "package_name": "com.bynry.btci",
             "certificate_hash": "3335bb95e81f0a69d2bcd440168a0169c3ac54b4"
           }
+        },
+        {
+          "client_id": "263850084193-bmvb772md745ivckbm403rbnbpomaijf.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAI-WwwBYIo-dTgpqTXZwSYsENZydqKZ0w"
+          "current_key": "AIzaSyB8Wxarr3nOEIcceic-NcJAzSUaEZXOLR4"
         }
       ],
       "services": {
@@ -35,11 +37,16 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263850084193-bmvb772md745ivckbm403rbnbpomaijf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }

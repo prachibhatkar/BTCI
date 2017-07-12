@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bynry.btci_employeeengagementapp">
+    package="com.bynry.btci">
     <!-- permission -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -25,7 +25,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.bynry.btci_employeeengagementapp.ui.activity.MainActivity">
+        <activity android:name="com.bynry.btci.ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,13 +34,13 @@
         </activity>
 
         <!-- [START fcm_receiver] -->
-        <service android:name="com.bynry.btci_employeeengagementapp.services.PushNotificationServiceFCM">
+        <service android:name="com.bynry.btci.services.PushNotificationServiceFCM">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
 
-        <service android:name="com.bynry.btci_employeeengagementapp.services.InstanceIdServiceFCM">
+        <service android:name="com.bynry.btci.services.InstanceIdServiceFCM">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
